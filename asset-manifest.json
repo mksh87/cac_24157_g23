@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cac_24157_g23.git/static/css/main.8026ba1d.css",
-    "main.js": "/cac_24157_g23.git/static/js/main.21614d7c.js",
-    "static/js/787.4228a063.chunk.js": "/cac_24157_g23.git/static/js/787.4228a063.chunk.js",
-    "static/media/champ3.jpeg": "/cac_24157_g23.git/static/media/champ3.cf3d4895ca68ab9fb5fa.jpeg",
-    "static/media/champ8.jpeg": "/cac_24157_g23.git/static/media/champ8.8accfdb702beb878edeb.jpeg",
-    "static/media/champ7.jpeg": "/cac_24157_g23.git/static/media/champ7.18e595c1818943307f33.jpeg",
-    "static/media/champ4.jpeg": "/cac_24157_g23.git/static/media/champ4.261b92f428e7cfca097a.jpeg",
-    "static/media/champ9.jpeg": "/cac_24157_g23.git/static/media/champ9.ec881ccc24195c7cd0ba.jpeg",
-    "static/media/champ5.jpeg": "/cac_24157_g23.git/static/media/champ5.875bf8b1efe5d0d25580.jpeg",
-    "static/media/champ6.jpeg": "/cac_24157_g23.git/static/media/champ6.caa257071f4f06ed2959.jpeg",
-    "static/media/logo2.png": "/cac_24157_g23.git/static/media/logo2.184d03506c8d4de83f3d.png",
-    "index.html": "/cac_24157_g23.git/index.html",
-    "main.8026ba1d.css.map": "/cac_24157_g23.git/static/css/main.8026ba1d.css.map",
-    "main.21614d7c.js.map": "/cac_24157_g23.git/static/js/main.21614d7c.js.map",
-    "787.4228a063.chunk.js.map": "/cac_24157_g23.git/static/js/787.4228a063.chunk.js.map"
+    "main.css": "/cac_24157_g23/static/css/main.8026ba1d.css",
+    "main.js": "/cac_24157_g23/static/js/main.36b86773.js",
+    "static/js/787.4228a063.chunk.js": "/cac_24157_g23/static/js/787.4228a063.chunk.js",
+    "static/media/champ3.jpeg": "/cac_24157_g23/static/media/champ3.cf3d4895ca68ab9fb5fa.jpeg",
+    "static/media/champ8.jpeg": "/cac_24157_g23/static/media/champ8.8accfdb702beb878edeb.jpeg",
+    "static/media/champ7.jpeg": "/cac_24157_g23/static/media/champ7.18e595c1818943307f33.jpeg",
+    "static/media/champ4.jpeg": "/cac_24157_g23/static/media/champ4.261b92f428e7cfca097a.jpeg",
+    "static/media/champ9.jpeg": "/cac_24157_g23/static/media/champ9.ec881ccc24195c7cd0ba.jpeg",
+    "static/media/champ5.jpeg": "/cac_24157_g23/static/media/champ5.875bf8b1efe5d0d25580.jpeg",
+    "static/media/champ6.jpeg": "/cac_24157_g23/static/media/champ6.caa257071f4f06ed2959.jpeg",
+    "static/media/logo2.png": "/cac_24157_g23/static/media/logo2.184d03506c8d4de83f3d.png",
+    "index.html": "/cac_24157_g23/index.html",
+    "main.8026ba1d.css.map": "/cac_24157_g23/static/css/main.8026ba1d.css.map",
+    "main.36b86773.js.map": "/cac_24157_g23/static/js/main.36b86773.js.map",
+    "787.4228a063.chunk.js.map": "/cac_24157_g23/static/js/787.4228a063.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8026ba1d.css",
-    "static/js/main.21614d7c.js"
+    "static/js/main.36b86773.js"
   ]
 }
