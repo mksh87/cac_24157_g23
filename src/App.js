@@ -9,6 +9,7 @@ import Servicios from "./Components/ServiciosComp";
 import Ubicacion from "./Components/Ubicacion";
 import CalendarComponent from "./Components/CalendarComponent";
 import Footer from "./Components/footer";
+import ContactForm from "./Components/ContactForm";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
       <Header />
       <Servicios />
       <Ubicacion />
-      <CalendarComponent />
+      <h1>Formulario de Contacto</h1>
+      <ContactForm />
       <Footer />
+
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="./lib/wow/wow.min.js"></script>
