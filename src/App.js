@@ -17,7 +17,6 @@ function App() {
       <Header />
       <Servicios />
       <Ubicacion />
-      <h1>Formulario de Contacto</h1>
       <ContactForm />
       <Footer />
 

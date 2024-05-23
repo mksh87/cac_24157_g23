@@ -43,7 +43,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="formContainer">
+      <h1>Formulario de Contacto</h1>
       <form onSubmit={handleSubmit} id="reserva">
         <div>
           <input
@@ -96,7 +97,7 @@ const ContactForm = () => {
               checked={formData.terms}
               onChange={handleChange}
             />
-            Acepto los términos y condiciones
+            Deseo recibir noticias sobre ofertas de veraneo.
           </label>
           {errors.terms && <span>{errors.terms}</span>}
         </div>

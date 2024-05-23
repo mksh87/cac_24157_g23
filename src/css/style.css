@@ -481,6 +481,13 @@ form div {
     margin-bottom: 15px;
 }
 
+.formContainer {
+        text-align: -webkit-center;
+        text-align: -moz-center;
+        text-align-last: center;
+        margin: 2%;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
