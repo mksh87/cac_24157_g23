@@ -43,72 +43,74 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Nombre:</label>
-        <input
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-        {errors.name && <span>{errors.name}</span>}
-      </div>
-
-      <div>
-        <label>Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        {errors.email && <span>{errors.email}</span>}
-      </div>
-
-      <div>
-        <label>Mensaje:</label>
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-        />
-        {errors.message && <span>{errors.message}</span>}
-      </div>
-
-      <div>
-        <label>Género:</label>
-        <select name="gender" value={formData.gender} onChange={handleChange}>
-          <option value="">Seleccione</option>
-          <option value="male">Masculino</option>
-          <option value="female">Femenino</option>
-        </select>
-        {errors.gender && <span>{errors.gender}</span>}
-      </div>
-
-      <div>
-        <label>
+    <div>
+      <form onSubmit={handleSubmit} id="reserva">
+        <div>
           <input
-            type="checkbox"
-            name="terms"
-            checked={formData.terms}
+            type="text"
+            name="name"
+            placeholder="Nombre"
+            value={formData.name}
             onChange={handleChange}
           />
-          Acepto los términos y condiciones
-        </label>
-        {errors.terms && <span>{errors.terms}</span>}
-      </div>
+          {errors.name && <span>{errors.name}</span>}
+        </div>
 
-      <div>
-        <button type="button" className="btn btn-primary px-3 d-none d-lg-flex">
-          Enviar
-        </button>
-      </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <span>{errors.email}</span>}
+        </div>
 
-      <div>
-        <img src="/images/imagen.jpg" alt="Imagen de contacto" />
-      </div>
-    </form>
+        <div>
+          <textarea
+            name="message"
+            placeholder="Deje aquí su mensaje"
+            value={formData.message}
+            onChange={handleChange}
+          />
+          {errors.message && <span>{errors.message}</span>}
+        </div>
+
+        <div>
+          <label>Motivo de contacto:</label>
+          <select name="gender" value={formData.gender} onChange={handleChange}>
+            <option value="">Seleccione</option>
+            <option value="male">Consulta generales</option>
+            <option value="female">Reservar una cabaña</option>
+            <option value="female">Reclamos o feedback</option>
+          </select>
+          {errors.gender && <span>{errors.gender}</span>}
+        </div>
+
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              name="terms"
+              checked={formData.terms}
+              onChange={handleChange}
+            />
+            Acepto los términos y condiciones
+          </label>
+          {errors.terms && <span>{errors.terms}</span>}
+        </div>
+
+        <div>
+          <button
+            type="button"
+            className="btn btn-primary px-3 d-none d-lg-flex"
+          >
+            Enviar
+          </button>
+        </div>
+      </form>{" "}
+    </div>
   );
 };
 

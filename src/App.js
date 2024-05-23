@@ -7,7 +7,6 @@ import NavBar from "./Components/NavBar";
 import Header from "./Components/HeaderComp";
 import Servicios from "./Components/ServiciosComp";
 import Ubicacion from "./Components/Ubicacion";
-import CalendarComponent from "./Components/CalendarComponent";
 import Footer from "./Components/footer";
 import ContactForm from "./Components/ContactForm";
 
